@@ -1,0 +1,41 @@
+.department-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .department-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .department-list th, .department-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+
+  .department-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  .department-list tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .department-list tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+
+  .department-list button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color:#007BFF;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .department-list button:hover {
+    background-color: #698495f7;
+  }
